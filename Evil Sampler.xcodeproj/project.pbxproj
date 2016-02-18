@@ -13,6 +13,17 @@
 		5539E2DF1C7428AB001601B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5539E2DD1C7428AB001601B7 /* Main.storyboard */; };
 		5539E2E11C7428AB001601B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5539E2E01C7428AB001601B7 /* Assets.xcassets */; };
 		5539E2E41C7428AB001601B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5539E2E21C7428AB001601B7 /* LaunchScreen.storyboard */; };
+		5539E2EC1C7429FD001601B7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5539E2EB1C7429FD001601B7 /* AVFoundation.framework */; };
+		5539E2EE1C742A14001601B7 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 5539E2ED1C742A14001601B7 /* Sounds */; };
+		5539E2F71C744DA1001601B7 /* DUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5539E2F61C744DA1001601B7 /* DUnit.m */; };
+		5539E2FC1C74DED2001601B7 /* Skeleton.aupreset in Resources */ = {isa = PBXBuildFile; fileRef = 5539E2FB1C74DED2001601B7 /* Skeleton.aupreset */; };
+		553DAF821C7525C0007C173C /* DSampler.m in Sources */ = {isa = PBXBuildFile; fileRef = 553DAF811C7525C0007C173C /* DSampler.m */; };
+		553DAF841C752692007C173C /* DMixer.m in Sources */ = {isa = PBXBuildFile; fileRef = 553DAF831C752692007C173C /* DMixer.m */; };
+		553DAF861C7526DE007C173C /* DIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 553DAF851C7526DE007C173C /* DIO.m */; };
+		553DAF8A1C7537AE007C173C /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 553DAF891C7537AE007C173C /* SoundManager.m */; };
+		553DAF8D1C75A72E007C173C /* MeterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 553DAF8C1C75A72E007C173C /* MeterView.m */; };
+		55AC260C1C76362300292D32 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55AC260B1C76362300292D32 /* CoreMotion.framework */; };
+		55AC260F1C764D7800292D32 /* SamplePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AC260E1C764D7800292D32 /* SamplePicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,21 @@
 		5539E2E01C7428AB001601B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5539E2E31C7428AB001601B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5539E2E51C7428AB001601B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5539E2EB1C7429FD001601B7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5539E2ED1C742A14001601B7 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		5539E2F51C744DA1001601B7 /* DUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUnit.h; sourceTree = "<group>"; };
+		5539E2F61C744DA1001601B7 /* DUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUnit.m; sourceTree = "<group>"; };
+		5539E2FB1C74DED2001601B7 /* Skeleton.aupreset */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Skeleton.aupreset; sourceTree = "<group>"; };
+		553DAF811C7525C0007C173C /* DSampler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSampler.m; sourceTree = "<group>"; };
+		553DAF831C752692007C173C /* DMixer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMixer.m; sourceTree = "<group>"; };
+		553DAF851C7526DE007C173C /* DIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIO.m; sourceTree = "<group>"; };
+		553DAF881C7537AE007C173C /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		553DAF891C7537AE007C173C /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		553DAF8B1C75A72E007C173C /* MeterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeterView.h; sourceTree = "<group>"; };
+		553DAF8C1C75A72E007C173C /* MeterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeterView.m; sourceTree = "<group>"; };
+		55AC260B1C76362300292D32 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		55AC260D1C764D7800292D32 /* SamplePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SamplePicker.h; sourceTree = "<group>"; };
+		55AC260E1C764D7800292D32 /* SamplePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SamplePicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55AC260C1C76362300292D32 /* CoreMotion.framework in Frameworks */,
+				5539E2EC1C7429FD001601B7 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +70,8 @@
 		5539E2C81C7428AB001601B7 = {
 			isa = PBXGroup;
 			children = (
+				55AC260B1C76362300292D32 /* CoreMotion.framework */,
+				5539E2EB1C7429FD001601B7 /* AVFoundation.framework */,
 				5539E2D31C7428AB001601B7 /* Evil Sampler */,
 				5539E2D21C7428AB001601B7 /* Products */,
 			);
@@ -58,14 +88,22 @@
 		5539E2D31C7428AB001601B7 /* Evil Sampler */ = {
 			isa = PBXGroup;
 			children = (
+				553DAF881C7537AE007C173C /* SoundManager.h */,
+				553DAF891C7537AE007C173C /* SoundManager.m */,
 				5539E2D71C7428AB001601B7 /* AppDelegate.h */,
 				5539E2D81C7428AB001601B7 /* AppDelegate.m */,
 				5539E2DA1C7428AB001601B7 /* ViewController.h */,
 				5539E2DB1C7428AB001601B7 /* ViewController.m */,
+				55AC260D1C764D7800292D32 /* SamplePicker.h */,
+				55AC260E1C764D7800292D32 /* SamplePicker.m */,
+				553DAF8B1C75A72E007C173C /* MeterView.h */,
+				553DAF8C1C75A72E007C173C /* MeterView.m */,
+				553DAF871C752B6D007C173C /* DUnit */,
 				5539E2DD1C7428AB001601B7 /* Main.storyboard */,
 				5539E2E01C7428AB001601B7 /* Assets.xcassets */,
 				5539E2E21C7428AB001601B7 /* LaunchScreen.storyboard */,
 				5539E2E51C7428AB001601B7 /* Info.plist */,
+				5539E2ED1C742A14001601B7 /* Sounds */,
 				5539E2D41C7428AB001601B7 /* Supporting Files */,
 			);
 			path = "Evil Sampler";
@@ -77,6 +115,19 @@
 				5539E2D51C7428AB001601B7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		553DAF871C752B6D007C173C /* DUnit */ = {
+			isa = PBXGroup;
+			children = (
+				5539E2F51C744DA1001601B7 /* DUnit.h */,
+				5539E2F61C744DA1001601B7 /* DUnit.m */,
+				553DAF811C7525C0007C173C /* DSampler.m */,
+				553DAF851C7526DE007C173C /* DIO.m */,
+				553DAF831C752692007C173C /* DMixer.m */,
+				5539E2FB1C74DED2001601B7 /* Skeleton.aupreset */,
+			);
+			name = DUnit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +161,7 @@
 				TargetAttributes = {
 					5539E2D01C7428AB001601B7 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = PM27ULWQ66;
 					};
 				};
 			};
@@ -137,7 +189,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5539E2E41C7428AB001601B7 /* LaunchScreen.storyboard in Resources */,
+				5539E2FC1C74DED2001601B7 /* Skeleton.aupreset in Resources */,
 				5539E2E11C7428AB001601B7 /* Assets.xcassets in Resources */,
+				5539E2EE1C742A14001601B7 /* Sounds in Resources */,
 				5539E2DF1C7428AB001601B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,8 +203,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				553DAF8D1C75A72E007C173C /* MeterView.m in Sources */,
 				5539E2DC1C7428AB001601B7 /* ViewController.m in Sources */,
 				5539E2D91C7428AB001601B7 /* AppDelegate.m in Sources */,
+				553DAF861C7526DE007C173C /* DIO.m in Sources */,
+				553DAF841C752692007C173C /* DMixer.m in Sources */,
+				553DAF821C7525C0007C173C /* DSampler.m in Sources */,
+				553DAF8A1C7537AE007C173C /* SoundManager.m in Sources */,
+				55AC260F1C764D7800292D32 /* SamplePicker.m in Sources */,
+				5539E2F71C744DA1001601B7 /* DUnit.m in Sources */,
 				5539E2D61C7428AB001601B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -251,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -263,10 +324,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Evil Sampler/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oneill.Evil-Sampler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -274,10 +339,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Evil Sampler/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oneill.Evil-Sampler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -300,6 +369,7 @@
 				5539E2EA1C7428AB001601B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
